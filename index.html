@@ -1,69 +1,172 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/normalize.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Epilogue:wght@400;600&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <div class="wrapper">
-      <header class="header">
-        <span class="header__logo">
-          <img src="img/react.svg" alt="" />
-        </span>
-        <nav>
-          <ul class="header__nav">
-            <li>
-              <a href="#about" class="header__link">About</a>
-            </li>
-            <li>
-              <a href="#latest-work" class="header__link">Work</a>
-            </li>
-            <li>
-              <a href="#contact" class="header__link">Contact</a>
-            </li>
-          </ul>
-        </nav>
-      </header>
-      <main>
-        <!-- Visual designer -->
-        <section class="visual-designer">
-          <div class="visual-designer__left">
-            <h2 class="visual-designer__subtitle">Branding | Image making</h2>
-            <h1 class="visual-designer__title">Visual Designer</h1>
-            <p class="visual-designer__text">
-              This is a template Figma file, turned into code using Anima. Learn
-              more at AnimaApp.com
-            </p>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/normalize.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@400;600&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <header class="header">
+      <span class="header__logo">
+        <img src="img/react.svg" alt="react logo" />
+      </span>
+      <nav>
+        <ul class="header__nav">
+          <li>
+            <a href="#about" class="header__link">About</a>
+          </li>
+          <li>
+            <a href="#latest-work" class="header__link">Work</a>
+          </li>
+          <li>
+            <a href="#contact" class="header__link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <!-- Visual designer -->
+      <section class="visual-designer">
+        <div class="visual-designer__left">
+          <h2 class="visual-designer__subtitle">Branding | Image making</h2>
+          <h1 class="visual-designer__title">Visual Designer</h1>
+          <p class="visual-designer__text">
+            This is a template Figma file, turned into code using Anima. Learn
+            more at AnimaApp.com
+          </p>
+        </div>
+        <div class="visual-designer__right">
+          <img src="img/girl.png" alt="designer-girl" />
+        </div>
+      </section>
+      <!-- Companies -->
+      <section class="companies"><img src="img/google.svg" alt="google logo">
+        <img src="img/nike logo.svg" alt="nike logo">
+        <img src="img/samsung.svg" alt="samsung logo">
+        <img src="img/apple.svg" alt="apple logo">
+        <img src="img/intercom.svg" alt="intercom logo">
+        <img src="img/adidas.svg" alt="adidas logo">
+      </section>
+      <!-- About -->
+      <section id="about" class="about">
+        <div class="about__item"><img src="img/owal krasnyy.svg" alt="red shape">
+          <h3 class="about__title">Product Design</h3>
+          <p class="about__text">This is a template Figma file, turned into code using Anima. Learn more at AnimaApp.com
+          </p>
+        </div>
+        <div class="about__item"><img src="img/oranjewiy.svg" alt="orange shape">
+          <h3 class="about__title">Art direction</h3>
+          <p class="about__text">This is a template Figma file, turned into code using Anima. Learn more at AnimaApp.com
+          </p>
+        </div>
+        <div class="about__item"><img src="img/green box.svg" alt="green shape">
+          <h3 class="about__title">Visual design</h3>
+          <p class="about__text">This is a template Figma file, turned into code using Anima. Learn more at AnimaApp.com
+          </p>
+        </div>
+      </section>
+      <!-- Latest work -->
+      <section id="latest-work" class="latest-work">
+        <p class="latest-work__title title">Latest work</p>
+        <div class="latest-work__row">
+          <div class="latest-work__item"><img src="img/blood orange.jpg" alt="book blood orange">
+            <p class="latest-work__label">Project title</p>
+            <span class="latest-work__text">UI, Art direction</span>
           </div>
-          <div class="visual-designer__right">
-            <img src="img/girl.png" alt="designer-girl" />
+          <div class="latest-work__item"><img src="img/mayonez.jpg" alt="mayonez">
+            <p class="latest-work__label">Project title</p>
+            <span class="latest-work__text">UI, Art direction</span>
           </div>
-        </section>
-        <!-- Companies -->
-        <section class="companies"><img src="img/google.svg" alt="google logo">
-            <img src="img/nike logo.svg" alt="nike logo" >
-            <img src="img/samsung.svg" alt="samsung logo">
-            <img src="img/apple.svg" alt="apple logo">
-            <img src="img/intercom.svg" alt="intercom logo">
-            <img src="img/adidas.svg" alt="adidas logo"></section>
-        <!-- About -->
-        <section id="about">about</section>
-        <!-- Latest work -->
-        <section id="latest-work">latest-work</section>
-        <!-- Clients -->
-        <section>Clients</section>
-      </main>
-      <footer id="contact"></footer>
-    </div>
-  </body>
+          <div class="latest-work__item"><img src="img/bukwa d.jpg" alt="book with d">
+            <p class="latest-work__label">Project title</p>
+            <span class="latest-work__text">UI, Art direction</span>
+          </div>
+        </div>
+        <div class="latest-work__row">
+          <div class="latest-work__item"><img src="img/book.jpg" alt="book">
+            <p class="latest-work__label">Project title</p>
+            <span class="latest-work__text">UI, Art direction</span>
+          </div>
+          <div class="latest-work__item"><img src="img/open book.jpg" alt="opened book">
+            <p class="latest-work__label">Project title</p>
+            <span class="latest-work__text">UI, Art direction</span>
+          </div>
+          <div class="latest-work__item"><img src="img/mnogo books.jpg" alt="lots of books">
+            <p class="latest-work__label">Project title</p>
+            <span class="latest-work__text">UI, Art direction</span>
+          </div>
+        </div>
+      </section>
+      <!-- Clients -->
+      <section class="clients">
+        <p class="clients__title title">Clients</p>
+        <div class="clients__row">
+          <div class="clients__item">
+            <p class="clients__label">This is a template Figma file, turned into code using Anima. Learn more at
+              AnimaApp.com</p>
+            <div class="clients__rating">
+              <div><img src="img/profile girl.jpg" alt="profile photo"></div>
+              <div class="clients__stars"><img src="img/stars.svg" alt="stars">
+                <p class="clients__text">Gemma Nolen,
+                  Google
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="clients__item">
+            <p class="clients__label">This is a template Figma file, turned into code using Anima. Learn more at
+              AnimaApp.com</p>
+            <div class="clients__rating">
+              <div><img src="img/profile girl.jpg" alt="profile photo"></div>
+              <div class="clients__stars"><img src="img/stars.svg" alt="stars">
+                <p class="clients__text">Gemma Nolen,
+                  Google
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="clients__item">
+            <p class="clients__label">This is a template Figma file, turned into code using Anima. Learn more at
+              AnimaApp.com</p>
+            <div class="clients__rating">
+              <div><img src="img/profile girl.jpg" alt="profile photo"></div>
+              <div class="clients__stars"><img src="img/stars.svg" alt="stars">
+                <p class="clients__text">Gemma Nolen,
+                  Google
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer id="contact" class="footer">
+      <div class="footer__left">
+        <p class="footer__title title">Lets work together</p>
+        <p class="footer__text">This is a template Figma file, turned into code using Anima. Learn more at AnimaApp.com
+          This is a template Figma file, turned into code using Anima. Learn more at AnimaApp.com</p>
+        <div class="footer__links"><a href="https://discord.com"><img src="img/discord.svg" alt="discord"></a><a
+            href="https://m.facebook.com"><img src="img/facebook.svg" alt="facebook"></a><a
+            href="https://dribbble.com"><img src="img/dribble.svg" alt="dribbble"></a><a
+            href="https://instagram.com"><img src="img/instagram.svg" alt="instagram"></a><a
+            href="https://www.behance.net"><img src="img/behance.svg" alt="behance"></a></div>
+      </div>
+      <div class="footer__right">
+        <form class="footer__form"><input type="text" placeholder="Name" class="footer__name"><input type="email"
+            placeholder="Email" class="footer__email"><textarea cols="30" rows="10" placeholder="Type your message here"
+            class="footer__textarea"></textarea> <button type="submit" class="footer__btn">Submit</button></form>
+      </div>
+    </footer>
+  </div>
+</body>
+
 </html>
